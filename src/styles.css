@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gjs-f-b0::before,
+.gjs-f-b1::before,
+.gjs-f-b2::before,
+.gjs-f-b3::before,
+.gjs-f-b4::before,
+.gjs-f-b5::before {
+  display: none;
+}
+
+
+[class*="gjs-f-"]::before {
+  display: none;
+}
